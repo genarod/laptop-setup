@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 appdir="/Applications"
 
@@ -45,6 +45,8 @@ apps=(
     vagrant-manager
     appcleaner
     caffeine
+    terminal-notifier
+    pv
     keepassx
     vlc
     gimp

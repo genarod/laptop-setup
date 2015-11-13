@@ -5,10 +5,7 @@ Script to install packages and change settings in new laptops
 Installs binaries and apps and sets defaults
 
 ## Ubuntu client
-Installs packages for a useful Ubuntu workstation
-
-## Ubuntu server
-Installs packages for an Ubuntu server
+Installs packages for a useful Ubuntu workstation (Ubuntu servers should be handled by vagrant)
 
 ## License
 [MIT License](LICENSE.md)

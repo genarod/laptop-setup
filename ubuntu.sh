@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 apps=(
     ntp
@@ -15,6 +15,7 @@ apps=(
     xclip
     google-talkplugin
     virtualbox-qt
+    vagrant
     keepass2
     ffmpeg
     indicator-sound-switcher
@@ -27,6 +28,18 @@ apps=(
     openssh-server
     caffeine
     tmux
+    flashplugin-installer
+    transmission
+    vlc
+    pv
 )
 
+sudo apt-get update
 sudo apt-get install -y ${apps[@]}
+
+# For Oracle Java
+sudo apt-get install -y software-properties-common
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install -y oracle-java7-installer
+sudo apt-get install -y oracle-java7-set-default
