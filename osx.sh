@@ -18,12 +18,13 @@ binaries=(
     imagemagick
     ffmpeg
     the_silver_searcher
+    pv
+    terminal-notifier
     wget
-    rsync
+    homebrew/dupes/rsync
     openssl
-    htop-osx (homebrew-alt)
+    htop-osx
     ssh-copy-id
-    caskroom/cask/brew-cask
     python
     python3
     pyenv
@@ -32,6 +33,7 @@ binaries=(
     ruby-build
     rbenv-gem-rehash
     rbenv-default-gems
+    caskroom/cask/brew-cask
 )
 # Add jenv to binaries if you need multiple versions of java)
 
@@ -45,8 +47,6 @@ apps=(
     vagrant-manager
     appcleaner
     caffeine
-    terminal-notifier
-    pv
     keepassx
     vlc
     gimp
