@@ -86,6 +86,11 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+# Finder: show full path on titlebar
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+
+# Show Library
+chflags nohidden ~/Library/
 
 # Wipe all (default) app icons from the Dock
 # This is only really useful when setting up a new Mac, or if you don’t use
