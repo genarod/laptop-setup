@@ -25,6 +25,7 @@ binaries=(
     openssl
     htop-osx
     ssh-copy-id
+    openssh
     python
     python3
     pyenv
