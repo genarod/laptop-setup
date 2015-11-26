@@ -60,6 +60,8 @@ apps=(
     atom
     sublime-text
     android-studio
+    genymotion
+    handbrake
 )
 # Either sourcetree or gitup must go
 # Either atom or sublime-text must go
