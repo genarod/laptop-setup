@@ -35,6 +35,7 @@ binaries=(
     rbenv-gem-rehash
     rbenv-default-gems
     caskroom/cask/brew-cask
+    zsh
 )
 # Add jenv to binaries if you need multiple versions of java)
 
