@@ -84,6 +84,9 @@ brew cleanup
 # For Python virtualenv and virtualenvwrapper
 pip install virtualenv virtualenvwrapper
 
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
