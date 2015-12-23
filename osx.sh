@@ -3,6 +3,7 @@
 appdir="/Applications"
 
 taps=(
+    caskroom/cask
     homebrew/dupes
     homebrew/completions
 )
@@ -34,7 +35,6 @@ binaries=(
     ruby-build
     rbenv-gem-rehash
     rbenv-default-gems
-    caskroom/cask/brew-cask
     zsh
 )
 # Add jenv to binaries if you need multiple versions of java)
@@ -63,6 +63,7 @@ apps=(
     android-studio
     genymotion
     handbrake
+    flash
 )
 # Either sourcetree or gitup must go
 # Either atom or sublime-text must go
@@ -93,6 +94,9 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Always show scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+
+# Enable full keyboard access
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
