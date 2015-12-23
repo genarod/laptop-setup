@@ -88,6 +88,9 @@ fi
 eval "$(rbenv init -)"
 alias emacs="export XMODIFIERS='' /usr/bin/emacs"
 
+export PYENV_ROOT=/usr/local/var/pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 export PIP_VIRTUALENV_BASE=$HOME/.virtualenvs
