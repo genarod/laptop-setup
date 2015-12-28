@@ -164,6 +164,10 @@ defaults write org.m0k.transmission WarningLegal -bool false
 # Xcode: Always use spaces for indenting
 defaults write com.apple.dt.Xcode DVTTextIndentUsingTabs -bool false
 
+# Disable opening photos when attaching iOS devices
+# (not useful except for developers)
+# defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool YES
+
 for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" \
   "Mail" "Safari" "SystemUIServer" "Terminal" "Transmission" \
   "iCal" "iTunes"; do
