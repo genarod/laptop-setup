@@ -11,7 +11,7 @@ ZSH_THEME="pygmalion"
 CASE_SENSITIVE="true"
 
 # The lpugins I need
-plugins=(osx git brew python django pip virtualenvwrapper)
+plugins=(osx git brew python django pip virtualenvwrapper vagrant)
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
