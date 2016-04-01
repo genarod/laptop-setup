@@ -10,6 +10,9 @@ ZSH_THEME="pygmalion"
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
 
+# The lpugins I need
+plugins=(osx git brew python django pip virtualenvwrapper)
+
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -89,7 +92,10 @@ eval "$(rbenv init -)"
 alias emacs="export XMODIFIERS='' /usr/bin/emacs"
 
 export PYENV_ROOT=/usr/local/var/pyenv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which pyenv-virtualenv-init > /dev/null
+then
+    eval "$(pyenv virtualenv-init -)"
+fi
 
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
@@ -118,3 +124,4 @@ bindkey -s "^[Ok" "+"
 bindkey -s "^[Om" "-"
 bindkey -s "^[Oj" "*"
 bindkey -s "^[Oo" "/"
+source /usr/local/opt/autoenv/activate.sh

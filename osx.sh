@@ -64,6 +64,7 @@ apps=(
     genymotion
     handbrake
     flash
+#    google-cloud-sdk
 )
 # Either sourcetree or gitup must go
 # Either atom or sublime-text must go
