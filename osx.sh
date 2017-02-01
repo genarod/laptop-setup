@@ -177,3 +177,8 @@ for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" \
   "iCal" "iTunes"; do
   killall "$app" > /dev/null 2>&1
 done
+
+# Verify Evernote
+if [ -d "/Applications/Evernote.ap" ] then
+   osascript -e 'tell app "System Events" to display dialog "Install Evernote from App Store"'
+fi
