@@ -36,6 +36,7 @@ binaries=(
     rbenv-gem-rehash
     rbenv-default-gems
     zsh
+    md5sha1sum
 )
 # Add jenv to binaries if you need multiple versions of java)
 
