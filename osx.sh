@@ -6,6 +6,7 @@ taps=(
     caskroom/cask
     homebrew/dupes
     homebrew/completions
+    thoughtbot/formulae
 )
 
 binaries=(
@@ -36,7 +37,15 @@ binaries=(
     rbenv-gem-rehash
     rbenv-default-gems
     zsh
+    postgresql
+    node
+    yarn
+    libyaml
     md5sha1sum
+    docker
+    docker-compose
+    docker-machine
+    rcm
 )
 # Add jenv to binaries if you need multiple versions of java)
 
@@ -65,6 +74,7 @@ apps=(
     genymotion
     handbrake
     flash
+    onyx
 #    google-cloud-sdk
 )
 # Either sourcetree or gitup must go
