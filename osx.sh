@@ -46,19 +46,19 @@ binaries=(
     docker-compose
     docker-machine
     rcm
+    brew-cask-completion
 )
 # Add jenv to binaries if you need multiple versions of java)
 
 apps=(
+    alfred
     firefox
     google-chrome
     skype
     slack
     virtualbox
-    vagrant
-    vagrant-manager
-    appcleaner
-    keepassx
+    docker
+    keepassxc
     vlc
     gimp
     emacs
@@ -66,19 +66,13 @@ apps=(
     iterm2
     the-unarchiver
     java
-    sourcetree
-    gitup
-    atom
-    sublime-text
     android-studio
     genymotion
-    handbrake
-    flash
-    onyx
-#    google-cloud-sdk
+    teamviewer
+    fanny
+    vnc-viewer
+    clipy
 )
-# Either sourcetree or gitup must go
-# Either atom or sublime-text must go
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -90,7 +84,7 @@ brew tap ${taps[@]}
 
 brew install ${binaries[@]}
 
-brew cask install --appdir=$appdir ${apps[@]}
+brew install --appdir=$appdir ${apps[@]}
 
 brew cleanup
 
