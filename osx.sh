@@ -75,6 +75,7 @@ apps=(
     handbrake
     flash
     onyx
+    clipy
 #    google-cloud-sdk
 )
 # Either sourcetree or gitup must go
