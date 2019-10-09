@@ -1,90 +1,18 @@
 #!/usr/bin/env bash
 
-appdir="/Applications"
-
-taps=(
-    caskroom/cask
-    homebrew/dupes
-    homebrew/completions
-    thoughtbot/formulae
-)
-
-binaries=(
-    bash
-    bash-completion
-    tmux
-    gnu-which
-    git
-    coreutils
-    findutils
-    imagemagick
-    ffmpeg
-    the_silver_searcher
-    pv
-    terminal-notifier
-    wget
-    homebrew/dupes/rsync
-    openssl
-    htop-osx
-    ssh-copy-id
-    openssh
-    python
-    python3
-    pyenv
-    pyenv-virtualenv
-    rbenv
-    ruby-build
-    rbenv-gem-rehash
-    rbenv-default-gems
-    zsh
-    postgresql
-    node
-    yarn
-    libyaml
-    md5sha1sum
-    docker
-    docker-compose
-    docker-machine
-    rcm
-    brew-cask-completion
-)
-# Add jenv to binaries if you need multiple versions of java)
-
-apps=(
-    alfred
-    firefox
-    google-chrome
-    skype
-    slack
-    virtualbox
-    docker
-    keepassxc
-    vlc
-    gimp
-    emacs
-    transmission
-    iterm2
-    the-unarchiver
-    java
-    android-studio
-    genymotion
-    teamviewer
-    fanny
-    vnc-viewer
-    clipy
-)
-
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew doctor
 
 brew update
 
-brew tap ${taps[@]}
+brew bundle
 
-brew install ${binaries[@]}
+# brew tap ${taps[@]}
 
-brew install --appdir=$appdir ${apps[@]}
+# brew install ${binaries[@]}
+
+# brew install --appdir=$appdir ${apps[@]}
 
 brew cleanup
 
