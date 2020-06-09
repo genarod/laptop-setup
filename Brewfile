@@ -26,6 +26,7 @@ mas "Slack", id: 803453959
 
 cask "aerial"
 cask "alfred"
+cask "authy"
 cask "android-studio"
 cask "anki"
 cask "blu-ray-player"
