@@ -38,6 +38,16 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 # Finder: new windows point to Home
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
+# Finder: Show Status bar in Finder
+defaults write com.apple.finder ShowStatusBar -bool true
+# Finder: Show Path bar in Finder
+# defaults write com.apple.finder ShowPathbar -bool true
+# echo "Show remaining battery percentage"
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+# echo "Require password 5 seconds after sleep or screen saver begins"
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 5
+
 
 # Show Library
 chflags nohidden ~/Library/
