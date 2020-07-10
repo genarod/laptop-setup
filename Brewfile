@@ -60,7 +60,7 @@ cask "vienna"
 cask "virtualbox"
 cask "vlc"
 cask "vnc-viewer"
-casl "zoomus"
+cask "zoomus"
 
 brew "autoenv"
 brew "bash-completion"
