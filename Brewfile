@@ -1,7 +1,10 @@
 cask_args appdir: "/Applications"
 
 tap "homebrew/cask-fonts"
-tap "caskroom/cask"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
 tap "homebrew/dupes"
 tap "homebrew/completions"
 tap "thoughtbot/formulae"
