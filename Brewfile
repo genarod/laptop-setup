@@ -1,37 +1,34 @@
 cask_args appdir: "/Applications"
 
-tap "homebrew/cask-fonts"
+tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "homebrew/dupes"
-tap "homebrew/completions"
 tap "thoughtbot/formulae"
 
 brew "mas"
 
-mas "Xcode", id: 497799835
 mas "Docs for Xcode", id: 688199928
 
 mas "Pages", id: 409201541
 mas "Numbers", id: 409203825
 mas "Keynote", id: 409183694
 mas "iMovie", id: 408981434
-mas "Save to Pocket", id: 1477385213
-mas "Pocket", id: 568494494
 mas "Microsoft Remote Desktop", id: 1295203466
+mas "Pocket", id: 568494494
+mas "Save to Pocket", id: 1477385213
 mas "feedly", id: 865500966
 mas "GarageBand", id: 682658836
 mas "Spark", id: 1176895641
-mas "Fantastical", id: 435003921
-mas "Slack", id: 803453959
+mas "Xcode", id: 497799835
 
 cask "aerial"
 cask "alfred"
-cask "authy"
 cask "android-studio"
 cask "anki"
+cask "authy"
 cask "blu-ray-player"
 cask "clipy"
 cask "docker"
@@ -47,15 +44,14 @@ cask "hammerspoon"
 cask "intellij-idea-ce"
 cask "iterm2"
 cask "java11"
-cask "java8"
 cask "keepassxc"
-cask "minikube"
 cask "postico"
-cask "real-vnc"
 cask "sequel-pro"
 cask "skype"
+cask "slack"
 cask "spotify"
 cask "suspicious-package"
+cask "tableplus"
 cask "the-unarchiver"
 cask "transmission"
 cask "tunnelblick"
@@ -88,18 +84,17 @@ brew "libvo-aacenc"
 brew "mas"
 brew "md5sha1sum"
 brew "nmap"
-brew "node@8"
+brew "node"
 brew "noti"
+brew "openjdk@11""
 brew "openssh"
 brew "pgcli"
 brew "postgresql"
 brew "prettyping"
 brew "pv"
 brew "pyenv-virtualenv"
-brew "python@2"
 brew "python"
 brew "rbenv-default-gems"
-brew "thoughtbot/formulae/rcm"
 brew "rsync"
 brew "sphinx-doc"
 brew "ssh-copy-id"
@@ -111,3 +106,4 @@ brew "wget"
 brew "yarn"
 brew "yasm"
 brew "youtube-dl"
+brew "thoughtbot/formulae/rcm"
