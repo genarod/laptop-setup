@@ -27,7 +27,6 @@ mas "Xcode", id: 497799835
 cask "aerial"
 cask "alfred"
 cask "android-studio"
-cask "anki"
 cask "authy"
 cask "blu-ray-player"
 cask "clipy"
