@@ -19,7 +19,6 @@ mas "iMovie", id: 408981434
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
-mas "feedly", id: 865500966
 mas "GarageBand", id: 682658836
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
@@ -58,7 +57,6 @@ brew "bash-completion"
 brew "brew-cask-completion"
 brew "coreutils"
 brew "dialog"
-brew "docker-compose"
 brew "docker-machine"
 brew "faac"
 brew "ffmpeg"
