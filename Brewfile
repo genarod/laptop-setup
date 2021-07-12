@@ -51,7 +51,7 @@ cask "transmission"
 cask "virtualbox"
 cask "vlc"
 cask "vnc-viewer"
-cask "zoomus"
+cask "zoom"
 
 brew "autoenv"
 brew "bash-completion"
