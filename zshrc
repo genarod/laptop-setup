@@ -68,7 +68,7 @@ ZSH_THEME="pygmalion"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(osx git docker python django pip virtualenvwrapper)
+plugins=(osx git docker python pip)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,3 +103,8 @@ export DOCKER_TLS_VERIFY="1"
 export DOCKER_HOST="tcp://192.168.99.100:2376"
 export DOCKER_CERT_PATH="/Users/genaro/.docker/machine/machines/default"
 export DOCKER_MACHINE_NAME="default"
+
+# Google Cloud SDK
+export CLOUDSDK_PYTHON="/usr/local/opt/python@3.8/libexec/bin/python"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
