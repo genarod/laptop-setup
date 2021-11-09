@@ -53,7 +53,7 @@ cask "vnc-viewer"
 cask "xbar"
 cask "zoom"
 
-cask "font-source-code-pro"
+cask "font-pt-mono"
 
 brew "autoenv"
 brew "bash-completion"
