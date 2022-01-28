@@ -16,7 +16,6 @@ mas "Pages", id: 409201541
 mas "Numbers", id: 409203825
 mas "Keynote", id: 409183694
 mas "iMovie", id: 408981434
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Pocket", id: 568494494
 mas "Save to Pocket", id: 1477385213
 mas "GarageBand", id: 682658836
@@ -27,14 +26,13 @@ cask "aerial"
 cask "alfred"
 cask "android-studio"
 cask "authy"
-cask "blu-ray-player"
 cask "dbeaver-community"
 cask "docker"
 cask "emacs"
 cask "firefox"
+cask "font-pt-mono"
 cask "gimp"
 cask "google-chrome"
-cask "google-cloud-sdk"
 cask "hammerspoon"
 cask "iterm2"
 cask "keepassxc"
@@ -42,7 +40,6 @@ cask "kindle"
 cask "microsoft-teams"
 cask "netnewswire"
 cask "skype"
-cask "slack"
 cask "spotify"
 cask "suspicious-package"
 cask "the-unarchiver"
@@ -52,8 +49,6 @@ cask "vlc"
 cask "vnc-viewer"
 cask "xbar"
 cask "zoom"
-
-cask "font-pt-mono"
 
 brew "autoenv"
 brew "bash-completion"
