@@ -45,6 +45,7 @@ cask "transmission"
 cask "virtualbox"
 cask "vlc"
 cask "xbar"
+cask "zoom"
 
 brew "autoenv"
 brew "bash-completion"
