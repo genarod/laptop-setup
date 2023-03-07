@@ -21,8 +21,8 @@
 ;; font string. You generally only need these two:
 ;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
-(setq doom-font (font-spec :family "PT Mono" :size (cond (IS-WINDOWS 20) 14) :weight 'normal :width 'normal)
-      doom-big-font (font-spec :family "PT Mono" :size ((cond (IS-WINDOWS 32) 20))))
+(setq doom-font (font-spec :family "PT Mono" :size (if (eq system-type 'windows-nt) 20 14) :weight 'normal :width 'normal)
+      doom-big-font (font-spec :family "PT Mono" :size (if (eq system-type 'windows-nt) 32 20)))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
