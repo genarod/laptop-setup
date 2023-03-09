@@ -1,4 +1,4 @@
-% For Emacs on Windows
+# For Emacs on Windows
 
 https://scoop.sh/
 
