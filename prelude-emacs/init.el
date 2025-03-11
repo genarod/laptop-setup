@@ -39,6 +39,7 @@
 (require 'prelude-org)
 (setq org-hide-leading-stars t)
 (setq org-startup-indented t)
+(setq org-todo-keywords '((sequence "TODO" "WAIT" "DONE")))
 
 ;; Change font
 (setq default-frame-alist '((font . "PT Mono")))
