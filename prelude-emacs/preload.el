@@ -20,5 +20,5 @@
 
 ;; This file should be placed in ~/.emacs.d/personal/preload/preload.el
 
-(setq prelude-theme 'manoj-dark)
+(setq prelude-theme 'doom-dark+)
 ;;; preload.el ends here

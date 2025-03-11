@@ -34,4 +34,16 @@
 
 ;; Enable visual line mode (line wrapping) in Org mode
 (add-hook 'org-mode-hook #'auto-fill-mode)
+
+;; Changes to improve Org mode
+(require 'prelude-org)
+(setq org-hide-leading-stars t)
+(setq org-startup-indented t)
+
+;; Change font
+(setq default-frame-alist '((font . "PT Mono")))
+
+;; Add doom-modeline
+(doom-modeline-mode 1)
+
 ;;; init.el ends here
