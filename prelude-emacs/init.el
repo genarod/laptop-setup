@@ -34,6 +34,7 @@
 
 ;; Enable visual line mode (line wrapping) in Org mode
 (add-hook 'org-mode-hook #'auto-fill-mode)
+(setq truncate-lines 1)
 
 ;; Changes to improve Org mode
 (require 'prelude-org)
